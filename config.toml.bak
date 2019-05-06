@@ -1,35 +1,41 @@
 baseurl = "https://blog.saifazmi.com"
 languageCode = "en-us"
-theme = "terminal"
+theme = "hello-friend"
 paginate = 5
 
 [params]
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
+  # "light" or "dark"
+  defaultTheme = "dark"
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
-  # set theme to full screen width
-  fullWidthTheme = false
-  # center theme with default width
-  centerTheme = true
-  # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+  # Show reading time in minutes for posts
+  showReadingTime = false
 
 [languages]
   [languages.en]
-    title = "Blog | Saif Azmi_"
+    title = "Saif Azmi_"
     subtitle = "A blog by Saif Azmi"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
+    writtenBy = "Written by"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
 
     [languages.en.params.logo]
-      logoText = "Saif Azmi_"
+      logoText = "saif azmi"
       logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
